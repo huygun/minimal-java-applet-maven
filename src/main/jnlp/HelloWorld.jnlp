@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>HelloWorld</title>
+        <vendor>FOSS</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="minimal-java-applet-maven-0.1-SNAPSHOT.jar" main="true" />
+    </resources>
+    <applet-desc 
+         name="Hello World Applet"
+         main-class="minimal.HelloWorld"
+         width="300"
+         height="300">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>
